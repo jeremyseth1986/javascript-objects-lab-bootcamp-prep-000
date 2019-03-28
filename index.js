@@ -7,6 +7,5 @@ function updateObjectWithKeyAndValue(object, key, value) {
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
- object = {recipes, [Key]: value}; 
- return object;
+object[key] = value;
 }
